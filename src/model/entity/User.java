@@ -7,9 +7,10 @@ public class User {
     String name;
     String cpf;
     String email;
-    String telefone;
+    String phone;
     String password;
     Date birthDate;
+
 
     public User(){
 
@@ -19,7 +20,7 @@ public class User {
         this.name = name;
         this.cpf = cpf;
         this.email = email;
-        this.telefone = telefone;
+        this.phone = telefone;
         this.password = password;
         this.birthDate = birthDate;
     }
@@ -56,12 +57,12 @@ public class User {
         this.email = email;
     }
 
-    public String getTelefone() {
-        return telefone;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
+    public void setPhone(String telefone) {
+        this.phone = telefone;
     }
 
     public String getPassword() {
