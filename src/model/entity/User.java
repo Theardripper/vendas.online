@@ -16,7 +16,8 @@ public class User {
 
     }
 
-    public User(String name, String cpf, String email, String telefone, String password, Date birthDate) {
+    public User(Integer id, String name, String cpf, String email, String telefone, String password, Date birthDate) {
+        this.id = id;
         this.name = name;
         this.cpf = cpf;
         this.email = email;
