@@ -16,14 +16,13 @@ public class Product {
     }
 
     Product(){
-
     }
 
     public int getId() {
         return id;
     }
 
-    public int setId(int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
